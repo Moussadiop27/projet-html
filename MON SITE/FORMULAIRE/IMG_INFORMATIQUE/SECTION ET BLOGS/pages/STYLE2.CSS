@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: rgb(255, 255, 255);}
+
+
+.SECT1{
+    background:url(Compétences-Photo-Blogue-scaled.jpeg)no-repeat ;background-size: cover;
+    min-height: 108vh;display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;padding: 10%;
+}
+ 
+.head{
+    backdrop-filter: blur(20px);
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: rgb(207, 163, 50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    color: rgb(242, 247, 243);
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover {
+    background-color: rgb(15, 15, 15);
+}
+
+.LOG{
+    color: rgb(10, 10, 10);
+    font-size: 3rem;
+}
+
+.ACTIVE { 
+    font-size: 1.5rem;
+    color: rgb(14, 15, 14);
+}
+.ACTIVE:hover { 
+    background-color: transparent;
+}
+
+.texte{
+    position: relative;
+}
+
+
+.COMPMOUS{
+    font-size: 2rem;
+    color:rgb(0, 0, 0);line-height: 30px;
+}
+
+.COMPMOU{
+    font-size: 2rem;
+    color:rgb(218, 165, 32);line-height: 30px;
+}
+
+.COMPDOU{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);line-height: 30px;
+}
